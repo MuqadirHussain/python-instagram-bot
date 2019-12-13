@@ -1,0 +1,9 @@
+1. write hash tags in csv file
+
+2.run the python script or exe file.
+
+3. Wait untill script get the hash tag count and storein csv file
+
+4. At last data.csv file in whichyou get the hashtags and the count
+
+ if need any change i am here
