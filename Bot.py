@@ -34,13 +34,11 @@ def write_data(file,tag,no_of_post):
         pass
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("user-data-dir="+os.getcwd()+"\\"+"user1")
-chrome_options.binary_location=r'GoogleChromePortable\\App\\Chrome-bin\\chrome.exe'
+#if you have google chrome portable then use this 
+#chrome_options.binary_location=r'GoogleChromePortable\\App\\Chrome-bin\\chrome.exe'
 chrome_options.add_argument('--disable-infobars')
 browser=webdriver.Chrome(chrome_options=chrome_options)
 browser.maximize_window()
-# # chrome_options.add_extension(pluginfile)
-# # PROXY="170.130.59.142:3128"
-# # chrome_options.add_argument('--proxy-server=%s' % PROXY)
 
 file="tags.csv"
 tag_data=read_data(file)
